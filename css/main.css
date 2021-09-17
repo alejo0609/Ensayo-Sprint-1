@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+body{
+	background: #313D52;
+}
+
+.superior{
+	width: 100%;
+	margin: 0px auto;
+	background: white;
+	padding: 0px;
+}
+.superior ul{
+	list-style: none;
+}
+
+#logo{
+	padding: 4px 4px;
+	margin: 5px 20px;
+}
+
+#btn_registroDeUsuarios	{								/* Color de la letra */
+	font-size: 18px;						/* Tamaño de la letra */
+	line-height: 20px;
+	margin: 8px 20px;
+	padding-bottom: 10px;
+	float: right;
+	background: white;
+
+}
+
+
+
+.navegacion{
+	width: 100%;
+	margin: 0px auto;
+	background: white;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block; 
+	padding: 15px 20px;
+	color:#353535 ;
+	font-family: Arial;
+	text-decoration:none ;
+}
+
+.menu li a:hover{
+	color: red;
+	transition: all .3s;
+}
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 110%;
+	display: none;
+}
+
+.submenu li a{
+
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	display: block;
+}
+
+#registrar_usuario_form{
+	padding: 15px 20px;
+	background: white;
+	width: 25%;
+}
+
+#registrar_usuario_form label{
+
+	color: black;
+}
