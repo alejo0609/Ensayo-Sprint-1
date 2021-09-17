@@ -2,7 +2,6 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-
 }
 body{
 	background: #313D52;
@@ -13,9 +12,11 @@ body{
 	margin: 0px auto;
 	background: white;
 	padding: 0px;
+
 }
 .superior ul{
 	list-style: none;
+
 }
 
 #logo{
@@ -23,16 +24,28 @@ body{
 	margin: 5px 20px;
 }
 
-#btn_registroDeUsuarios	{								/* Color de la letra */
-	font-size: 18px;						/* Tamaño de la letra */
-	line-height: 20px;
-	margin: 8px 20px;
-	padding-bottom: 10px;
+#btn_registroDeUsuarios	{
+	padding: 3px 8px;
+	font-weight:600 ;
+	border-radius: 15px;
+	border: 2px solid #313D52;
 	float: right;
-	background: white;
-
+	line-height: 30px;
+	margin: 4px 30px;
+	background: white;	
 }
 
+#btn_registroDeUsuarios a{
+	font-size: 16px;
+	text-decoration: none;
+	color: #313D52;
+	background-color:white ;
+}
+
+#btn_registroDeUsuarios a:hover{
+    color: green;
+	transition: all .6s;
+}
 
 
 .navegacion{
@@ -88,8 +101,10 @@ body{
 	background: white;
 	width: 25%;
 	margin: 15% auto;
+}
 
 #registrar_usuario_form label{
 
 	color: black;
 }
+
