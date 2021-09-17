@@ -87,7 +87,7 @@ body{
 	padding: 15px 20px;
 	background: white;
 	width: 25%;
-}
+	margin: 15% auto;
 
 #registrar_usuario_form label{
 
