@@ -8,6 +8,7 @@ body{
 	background: #313D52;
 }
 
+
 .superior{
 	width: 100%;
 	height: 70px;
@@ -16,10 +17,10 @@ body{
 	padding: 0px;
 
 }
-
 .superior ul{
 	list-style: none;
 }
+
 
 #logo{
 	width: 55px;
@@ -27,6 +28,7 @@ body{
 	
 	margin: 12px 40px;
 }
+
 
 #btn_registroDeUsuarios	{
 	width: 200px;
@@ -38,21 +40,17 @@ body{
 	line-height: 30px;
 	margin: 12px 40px;
 	background: white;	
-
 }
-
 #btn_registroDeUsuarios a{
 	font-size: 24px;
 	text-decoration: none;
 	color: #313D52;
 	background-color:white ;
 }
-
 #btn_registroDeUsuarios a:hover{
     color: red;
 	transition: all .6s;
 }
-
 
 
 .navegacion{
@@ -62,18 +60,15 @@ body{
 	background: white;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 .navegacion ul{
 	list-style: none;
 }
-
 
 
 .menu > li{
 	position: relative;
 	display: inline-block;
 }
-
 .menu > li > a{
 	margin: 10px;
 	display: block; 
@@ -84,10 +79,15 @@ body{
 	font-size: 22px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 .menu li a:hover{
 	color: red;
 	transition: all .3s;
+}
+.menu li:hover .submenu{
+	display: block;
+}
+.menu li:hover .idioma{
+	display: block;
 }
 
 .submenu{
@@ -96,9 +96,28 @@ body{
 	width: 100%;
 	display: none;
 }
-
 .submenu li a{
+	display: block;
+	padding: 7px;
+	color: #fff;
+	text-decoration: none;
+	text-align:center;
+	font-size: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.submenu li a:hover{
+	color:red;
+	background: white;
+}
 
+
+.idioma{
+	position: absolute;
+	background: #333333;
+	width: 100%;
+	display: none;
+}
+.idioma li a{
 	display: block;
 	padding: 7px;
 	color: #fff;
@@ -108,13 +127,11 @@ body{
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.menu li:hover .submenu{
-	display: block;
-}
-.submenu li a:hover{
+.idioma li a:hover{
 	color:red;
 	background: white;
 }
+
 
 
 #registrar_usuario_form{
@@ -127,11 +144,8 @@ body{
 	border-radius: 12px;
 	line-height: 50px;
 	float: center;
-
 }
-
 #registrar_usuario_form label input{
-
 	padding: 15px 10px;
 	color: black;
 	width: 100%;
@@ -143,6 +157,8 @@ body{
 	font-size: 20px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
 #enviar_registro{
 	
 	width: 120px;
@@ -159,6 +175,5 @@ body{
 	background: #313D52;
 	color: white;
 	transition: all .3s;
-
 }
 
