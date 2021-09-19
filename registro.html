@@ -5,8 +5,13 @@
 			<meta charset="utf-8">
 			<meta http-equiv="X-UA-Compactible" content="IE-edge">  <!-- Para que se adapte a todos los navegadores -->
 		  	<meta name="viewport" content="width-device-width, initial-scale?1.0">
-		  	<link rel="shortcut icon" type="imagw/x-icon" href="imgs/LetterM1.png">
-			<title>Base Datos</title>
+			<!--
+			  <a href="index.html"><img src="imgs/LetterM1.png"></a> 
+			-->
+			<link rel="shortcut icon" type="imagw/x-icon" href="imgs/LetterM1.png"> 
+		  	
+			
+			<title>Logi Tech</title>
 			<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 
@@ -14,7 +19,7 @@
 			<header>
 				<nav class="superior">
 					<ul class="titulos">
-					    <img id="logo" src="imgs/LetterM1.png" alt="Ensayo" width= 30px high= 10px >
+					    <a href="index.html"><img id="logo" src="imgs/LetterM1.png" alt="Ensayo"  ></a>
 				  	</ul>
 				</nav>
 				<hr>
@@ -37,22 +42,22 @@
 				
 				<nav>
 					<ul>
-						<form id="registrar_usuario_form">
+						<form id="registrar_usuario_form"><h1>Formulario de Registro</h1>
 
 					
-								<label for="nombre">Nombre
-								<input id= "nombre_usuario" type="text" maxlength="20" placeholder="Escriba su nombre">
+								<label for="nombre">
+								<input id= "nombre_usuario" type="text" maxlength="20" placeholder="Nombre de usuario" >
 								</label><br>
 
-								<label for="nacimiento">Año Nacimiento
-								<input id="anoNacimiento_usuario" type="number" min="1900" max="2021" placeholder="Año">
+								<label for="nacimiento">
+								<input id="anoNacimiento_usuario" type="number" min="1900" max="2021" placeholder="Año de nacimiento">
 								</label><br>
 
-								<label for="clave">Password
-								<input id= "contrasena_usuario" type="password" placeholder="Escriba su password">
-								</label><br><br>
+								<label for="clave">
+								<input id= "contrasena_usuario" type="password" placeholder="Password">
+								</label><br>
 
-								<button id="enviar_registro" > Enviar </button> 
+								<button id="enviar_registro" > <h2>Enviar</h2> </button> 
 								<!--
 								<button id="enviar_registro" > <b> <a href="index.html"> Enviar </a> </b></button> 	
 								-->			
